@@ -22,7 +22,9 @@ const App = () => {
         width: 300,
         height: 250,
         view: 'both', 
-        theme: 'dark'
+        theme: 'dark',
+        title:'COLORS',
+        cellControl:4
     }
     return (
         ....
@@ -58,8 +60,10 @@ There is small css theme is needed. These **primary** theme concept is provided 
 | **row**  | **Number**  | *Creates number or rows in color pallate* | **row:12**|
 | **width**  | **Number**  | *Width of the color pallate canvas* | **width:300**|
 | **height**  | **Number**  | *Height of the color pallate canvas* | **width:250**|
-| **view**  | **string**  | ***palette** and **sphere** or you can use **both*** | **view:'both'**|
-| **theme**  | **string**  | ***dark** or **light** by default its light* | **theme:'dark'**|
+| **view**  | **String**  | ***palette** and **sphere** or you can use **both*** | **view:'both'**|
+| **theme**  | **String**  | ***dark** or **light** by default its light* | **theme:'dark'**|
+| **title**  | **String**  | *Any value you want as title* | **title:'Colors'**|
+| **cellControl**  | **Number**  | *If using this field, user will get controll for **increasing** and **decreasing** cell numbers* | **cellControl:4**|
 
 --------------------------------------------
 
